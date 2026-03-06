@@ -139,8 +139,8 @@ The output above is a good baseline for starting measurements: system time is 0.
 ### Install
 
 ```bash
-git clone https://github.com/darkfibre-dev/darkfibre-measure-ws-public
-cd darkfibre-measure-ws-public
+git clone https://github.com/darkfibre-dev/pump-latency-benchmark
+cd pump-latency-benchmark
 npm install
 ```
 
@@ -190,8 +190,8 @@ After 24 hours, copy the CSV files from both servers to a single machine for ana
 ```bash
 mkdir -p data/2026-03-04
 
-scp root@fra-server:/root/darkfibre-measure-ws-public/data/measurements_1234567890_FRA.csv data/2026-03-04/
-scp root@ny-server:/root/darkfibre-measure-ws-public/data/measurements_1234567890_NY.csv   data/2026-03-04/
+scp root@fra-server:/root/pump-latency-benchmark/data/measurements_1234567890_FRA.csv data/2026-03-04/
+scp root@ny-server:/root/pump-latency-benchmark/data/measurements_1234567890_NY.csv   data/2026-03-04/
 ```
 
 ### Run the Analysis
